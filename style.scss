@@ -1,0 +1,29 @@
+* {
+    body {
+        nav {
+            margin-top: 50px;
+            border: 1px solid black;
+            ul {
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                li {
+                    margin: 10px;
+                    padding: 10px;
+                    a {
+
+                    }
+                }
+            }
+        }
+        section {
+            margin: 50px;
+            text-align: justify;
+            p {
+
+            }
+        }
+    }
+}
