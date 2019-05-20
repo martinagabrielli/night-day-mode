@@ -1,6 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* body div img {
+  width: 50px;
+  position: absolute;
+  right: 50px;
+  top: 25px;
+}
+
 * body nav {
-  margin-top: 50px;
-  border: 1px solid black;
+  margin-top: 10px;
 }
 
 * body nav ul {
@@ -20,8 +31,29 @@
   padding: 10px;
 }
 
+* body nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+* body img {
+  display: block;
+  margin: auto;
+}
+
 * body section {
   margin: 50px;
   text-align: justify;
+}
+
+*.about img {
+  display: block;
+  margin: auto;
+}
+
+*.contact img {
+  display: block;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
