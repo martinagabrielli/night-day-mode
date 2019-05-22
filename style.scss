@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
     body {
-        // &.dark {
-        //     background-color: #000000;
-        //     color: #ffffff;
-        // }
         #day-mode, #night-mode {
             display: none;
             &.show {
@@ -38,6 +34,14 @@
             }
         }
 
+        main {
+            img {
+                display: block;
+                margin: auto;
+                background: white;
+            }
+        }
+
         img {
             display: block;
             margin: auto;
@@ -63,5 +67,15 @@
             display: block;
             margin: auto;
         }
+    }
+}
+
+.dark {
+    background: #000000;
+    color: white;
+    transition: 0.2s ease-in-out;
+
+    a {
+        color: white;
     }
 }

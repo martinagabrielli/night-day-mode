@@ -45,6 +45,12 @@
   text-transform: uppercase;
 }
 
+* body main img {
+  display: block;
+  margin: auto;
+  background: white;
+}
+
 * body img {
   display: block;
   margin: auto;
@@ -63,5 +69,16 @@
 *.contact img {
   display: block;
   margin: auto;
+}
+
+.dark {
+  background: #000000;
+  color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.dark a {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
