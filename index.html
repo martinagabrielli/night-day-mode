@@ -1,45 +1,35 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Nigh Day Mode</title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <script src="jquery-3.4.1.min.js"></script>
         <script src="js.cookie.js"></script>
     </head>
     <body class="home">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <a href="#day-mode" id="day-mode" class="show"><img src="img/day-mode.gif"></a>
+        <a href="#night-mode" id="night-mode"><img src="img/night-mode.gif"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <img src="img/dog-cat.png">
+        </main>
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum metus id volutpat vulputate. Phasellus porttitor nulla sed ex bibendum finibus. Fusce fermentum nisi eget ultrices condimentum. Donec elit metus, ultrices vel purus ut, imperdiet posuere lorem. Quisque sed justo nec eros vehicula luctus. Duis nec porttitor lectus. Vivamus convallis id enim at tempor. Etiam at lobortis mauris, in vulputate augue. In pretium massa tincidunt, consequat justo in, ullamcorper nisi. Sed fermentum orci vitae tellus semper, at elementum turpis mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper nisi pulvinar felis condimentum pulvinar.</p><br>
+            <p>Donec neque justo, fringilla nec mauris ac, lacinia ultrices justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ultrices mollis scelerisque. Quisque sollicitudin turpis mauris, a vestibulum elit laoreet eget. Fusce ut placerat nibh. Suspendisse potenti. Quisque id mollis augue, aliquet ultrices metus.</p><br>
+            <p>Mauris a tristique ex. Aliquam erat volutpat. Sed ut justo consequat, hendrerit justo vitae, tristique erat. Nullam in elit magna. Mauris convallis lectus id elit sagittis, id egestas quam congue. Fusce diam nibh, facilisis eu pharetra id, pulvinar ac lacus. Integer pulvinar sit amet ex quis iaculis.</p><br>
+            <p>In laoreet congue felis vel maximus. In lacinia dictum eros ac commodo. Integer placerat volutpat tellus, at ultrices mi porttitor eget. Aliquam fringilla lectus ac tempus faucibus. Morbi et neque a odio porta imperdiet. Pellentesque eu ligula in risus lobortis commodo ac ut metus. Ut luctus, nisl quis auctor varius, diam nunc vulputate mauris, ac volutpat ex eros ac lacus. Vestibulum eget nisi lectus. Aenean nec eleifend ex. Aliquam mollis urna turpis, et pharetra ligula cursus non. Suspendisse pretium sed leo non facilisis. Fusce luctus maximus sollicitudin. Aenean sit amet dui dolor. Vestibulum id urna eget mi tempus auctor. Ut urna ligula, ultrices sed nisi eu, tincidunt sollicitudin nisi. In lacinia, libero non sodales vestibulum, nunc nibh rhoncus mi, et venenatis tellus nisi at risus.</p><br>
+            <p>Praesent sed convallis orci. Cras tempus porta elementum. Nunc pellentesque vitae arcu at mollis. Proin dictum est ipsum, quis pulvinar elit egestas vitae. Ut fringilla pretium tellus, in placerat metus. Ut nec sagittis justo. Phasellus luctus laoreet est id eleifend. Nulla facilisis ex et tellus venenatis, quis volutpat nunc blandit.</p><br> 
+        </section>
 
-            <a href="#day-mode" id="day-mode" class="show"><img src="img/day-mode.gif"></a>
-            <a href="#night-mode" id="night-mode"><img src="img/night-mode.gif"></a>
-
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-
-            <main><img src="img/dog-cat.png"></main>
-
-
-            <section>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum metus id volutpat vulputate. Phasellus porttitor nulla sed ex bibendum finibus. Fusce fermentum nisi eget ultrices condimentum. Donec elit metus, ultrices vel purus ut, imperdiet posuere lorem. Quisque sed justo nec eros vehicula luctus. Duis nec porttitor lectus. Vivamus convallis id enim at tempor. Etiam at lobortis mauris, in vulputate augue. In pretium massa tincidunt, consequat justo in, ullamcorper nisi. Sed fermentum orci vitae tellus semper, at elementum turpis mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper nisi pulvinar felis condimentum pulvinar.</p><br>
-                <p>Donec neque justo, fringilla nec mauris ac, lacinia ultrices justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ultrices mollis scelerisque. Quisque sollicitudin turpis mauris, a vestibulum elit laoreet eget. Fusce ut placerat nibh. Suspendisse potenti. Quisque id mollis augue, aliquet ultrices metus.</p><br>
-                <p>Mauris a tristique ex. Aliquam erat volutpat. Sed ut justo consequat, hendrerit justo vitae, tristique erat. Nullam in elit magna. Mauris convallis lectus id elit sagittis, id egestas quam congue. Fusce diam nibh, facilisis eu pharetra id, pulvinar ac lacus. Integer pulvinar sit amet ex quis iaculis.</p><br>
-                <p>In laoreet congue felis vel maximus. In lacinia dictum eros ac commodo. Integer placerat volutpat tellus, at ultrices mi porttitor eget. Aliquam fringilla lectus ac tempus faucibus. Morbi et neque a odio porta imperdiet. Pellentesque eu ligula in risus lobortis commodo ac ut metus. Ut luctus, nisl quis auctor varius, diam nunc vulputate mauris, ac volutpat ex eros ac lacus. Vestibulum eget nisi lectus. Aenean nec eleifend ex. Aliquam mollis urna turpis, et pharetra ligula cursus non. Suspendisse pretium sed leo non facilisis. Fusce luctus maximus sollicitudin. Aenean sit amet dui dolor. Vestibulum id urna eget mi tempus auctor. Ut urna ligula, ultrices sed nisi eu, tincidunt sollicitudin nisi. In lacinia, libero non sodales vestibulum, nunc nibh rhoncus mi, et venenatis tellus nisi at risus.</p><br>
-                <p>Praesent sed convallis orci. Cras tempus porta elementum. Nunc pellentesque vitae arcu at mollis. Proin dictum est ipsum, quis pulvinar elit egestas vitae. Ut fringilla pretium tellus, in placerat metus. Ut nec sagittis justo. Phasellus luctus laoreet est id eleifend. Nulla facilisis ex et tellus venenatis, quis volutpat nunc blandit.</p><br> 
-            </section>
-        
         <script src="script.js"></script>
     </body>
 </html>
